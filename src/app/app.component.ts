@@ -6,5 +6,29 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mcs-jcpremier';
+  title = '@MCSFALLAR';
+
+  goToktok() {
+    window.location.href = "http://www.toktok.ph/delivery/1111318880";
+  }
+
+  goMangBoks() {
+    window.location.href = "http://www.mangboks.ph/1111318880";
+  }
+
+  goBoyBondat() {
+    window.location.href = "http://www.boybondat.ph/ordernow/1111318880";
+  }
+
+  goSiomaiKing() {
+    window.location.href = "http://www.siomaiking.ph/ordernow/1111318880";
+  }
+
+  goCoppermask() {
+    window.location.href = "http://www.coppermask.ph/cpshop/1111318880";
+  }
+
+  goNinjaion() {
+    window.location.href = "http://www.ninjaph.com/cpshop/1111318880";
+  }
 }
