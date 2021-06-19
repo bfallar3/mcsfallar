@@ -39,4 +39,8 @@ export class AppComponent {
   goJcShop() {
     window.location.href = "https://jcshop.ph/1111318880";
   }
+
+  goToktokmall() {
+    window.location.href = "https://toktokmall.ph/1111318880";
+  }
 }
